@@ -11,7 +11,7 @@ namespace TDDHOMEWORD2.Tests
     public class TDDHW2Tests
     {
         [TestMethod()]
-        public void AccountingTest()
+        public void AccountingTest_id_1_quantity_1_shouldbe_100()
         {
             //arrange   
             List<Book> book = new List<Book>() { 
