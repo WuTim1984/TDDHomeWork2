@@ -24,6 +24,7 @@ namespace TDDHOMEWORD2.Tests
             int price =100;
             var target = new TDDHW2();
             int actual =0;
+
             int expected =100;
             //act  
             actual = target.Accounting(book, price);

@@ -10,6 +10,7 @@ namespace TDDHOMEWORD2
         public int Accounting(List<Book> booklist,int price)
         {
             int sum = 0;
+
             sum = booklist.Sum(x=>x.Quantity);
 
             return sum*price;
